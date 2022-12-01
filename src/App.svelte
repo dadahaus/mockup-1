@@ -1,21 +1,30 @@
 <script lang="ts">
   import "./dist/style.css";
+  import Hero from './lib/Hero.svelte'
+  import Second from './lib/Second.svelte'
+  import Third from './lib/Third.svelte'
+  import Fourth from './lib/Fourth.svelte'
+  import Footer from './lib/Footer.svelte'
+
 </script>
 
 
-  <section>
-    <h1>hello</h1>
-  </section>
+
+<Hero />
+<Second />
+<Third />
+<Fourth />
+<Footer />
 
 <style lang="scss">
 
-  section {
-  height: 100vh;
-  display: flex;
-  flex-flow: column;
-  justify-content: center;
-  align-items: center;
-  gap: 1rem;
-}
+//   section {
+//   height: 100vh;
+//   display: flex;
+//   flex-flow: column;
+//   justify-content: center;
+//   align-items: center;
+//   gap: 1rem;
+// }
 
 </style>
