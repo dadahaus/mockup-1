@@ -16,7 +16,7 @@ const tl = gsap.timeline();
 //   scrub: true,
 // });
 
-tl.to(".wrapper", 5, { x: -window.innerWidth });
+tl.duration(".wrapper", 5, { x: -window.innerWidth });
 
 ScrollTrigger.create({
   animation: tl,
