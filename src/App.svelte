@@ -2,12 +2,20 @@
   import "./dist/style.css";
 </script>
 
-<main>
+
   <section>
     <h1>hello</h1>
   </section>
-</main>
 
-<style>
+<style lang="scss">
+
+  section {
+  height: 100vh;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
 
 </style>
