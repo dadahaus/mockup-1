@@ -1,9 +1,6 @@
-<main>
-    <section>
-        <h1>hello</h1>
-    </section>
-</main>
+<section>
+  <h1>hello</h1>
+</section>
 
 <style lang="scss">
-
 </style>
