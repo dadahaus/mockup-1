@@ -8,13 +8,16 @@
 
 </script>
 
+<main class="wrapper">
 
+  <Hero class="section section__1" /> 
+  <Second class="section section__2" />
+  <Third />
+  <Fourth />
+  <Footer />
 
-<Hero /> 
-<Second class="section-height" />
-<Third />
-<Fourth />
-<Footer />
+</main>
+
 
 <style lang="scss">
 

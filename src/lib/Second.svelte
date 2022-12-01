@@ -5,7 +5,9 @@
 </main>
 
 <style lang="scss">
-	.section-height{
-		background: center/ cover no-repeat #eee  url("../../assets/bgr-2.gif");
+	.section{
+        &__2{
+            background: center/ cover no-repeat #eee  url("../../assets/bgr-2.gif");
+        }
 	}
 </style>
