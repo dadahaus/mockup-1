@@ -1,11 +1,9 @@
 <main>
-    <section class={$$props.class}>
+    <section>
         <h1>hello</h1>
     </section>
 </main>
 
 <style lang="scss">
-	.section-height{
-		color:red;
-	}
+
 </style>

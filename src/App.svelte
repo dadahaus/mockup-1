@@ -10,8 +10,8 @@
 
 
 
-<Hero class="section-height"/> 
-<Second />
+<Hero /> 
+<Second class="section-height" />
 <Third />
 <Fourth />
 <Footer />
