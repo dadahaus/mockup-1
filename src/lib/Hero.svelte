@@ -1,7 +1,7 @@
 <section>
-  <div class="one"><h1>welcome to the haus</h1></div>
+  <div class="one"><h3>welcome to the haus</h3></div>
   <div class="two column">
-    <h3>design resources for the people</h3>
+    <h5>design resources for the people</h5>
     <button>
       <a href="#">go inside</a>
     </button>
@@ -12,17 +12,23 @@
   section{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
     &>*{
       display: flex;
-      height:100vh;
+
       
     }
     .one{
+
+
+      
       text-transform: capitalize;
       justify-content: center;
       align-items: center;
       flex-basis: 70%;
+     
+
 
     }
     .two{
@@ -30,7 +36,10 @@
       gap:2rem;
       text-align: end;
       flex-basis: 30%;
-
+      button{
+        padding: var(--button-padding);
+        
+      }
       
     }
  
