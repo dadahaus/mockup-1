@@ -22,7 +22,7 @@ ScrollTrigger.create({
   animation: tl,
   trigger: ".wrapper",
   start: "center center",
-  end: "+=4000",
+  end: "+=5000",
   scrub: true,
   pin: true,
 });
