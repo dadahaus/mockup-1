@@ -1,5 +1,5 @@
 <script lang="ts">
-  import "./dist/style.css";
+  import "./scss/style.css";
   import Hero from './lib/Hero.svelte'
   import Second from './lib/Second.svelte'
   import Third from './lib/Third.svelte'

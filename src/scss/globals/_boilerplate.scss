@@ -28,6 +28,9 @@ body {
   // overflow-x: hidden;
   position: relative;
   line-height: normal;
+  &::-webkit-scrollbar {
+    display: none;
+}
   a {
     color: inherit
   }
